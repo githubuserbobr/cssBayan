@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header_title {
+    font-family: Roboto;
+    margin: 15px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: 700;
+}
