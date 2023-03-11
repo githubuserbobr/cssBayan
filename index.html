@@ -15,22 +15,39 @@
 </head>
 
 <body>
-    <header class="header">
-       <h1 class="header_title">CSS Bayan</h1> 
-       <hr>
-    </header>
-    <main class="wrapper">
-        <div class="meme_item">
-            <input type="radio" id="meme-1">
-            <label for="meme-1" class="meme_title">
-                Meme 1
-            </label>
-            <div class="meme_img">
-                *some meme img*
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header_title">CSS Bayan</h1>
+            <hr>
+        </header>
+        <main class="main">
+            <div class="meme">
+                <div class="meme-item">
+                    <input class="meme-input" type="checkbox" id="meme-1" name="radio-button">
+                    <label for="meme-1" class="meme-item__title">
+                        Meme 1
+                    </label>
+                    <div class="meme-item__img">
+                        *some meme img*
+                    </div>
+                </div>
             </div>
-        </div>
-    </main>
-    
+            <hr>
+
+            <div class="meme">
+                <div class="meme-item">
+                    <input class="meme-input" type="checkbox" id="meme-2" name="radio-button">
+                    <label for="meme-2" class="meme-item__title">
+                        Meme 2
+                    </label>
+                    <div class="meme-item__img">
+                        *some meme img*
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </main>
+    </div>
 </body>
 
 </html>
