@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+
+
 img {
     display: block;
     width: 450px;
     height: 450px;
     margin: 0 auto;
 }
+
 
 .wrapper {
     margin-left: 40px;
@@ -88,3 +91,26 @@ img {
     100% {opacity: 1;}
   }
 
+  @media all and (max-width: 820px) {
+    img {
+        display: block;
+        width: 350px;
+        height: 350px;
+    }
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    img {
+        display: block;
+        width: 230px;
+        height: 230px;
+    }
+    .wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
